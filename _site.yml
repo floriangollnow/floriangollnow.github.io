@@ -1,0 +1,23 @@
+name: "Florian Gollnow, Ph.D"
+output_dir: "."
+navbar:
+  title: "Florian Gollnow, Ph.D"
+  left:
+    - text: "Publications"
+      href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de
+    - text: "CV"
+      href: files/GollnowF_CV_20210214.pdf
+
+  right:
+    - icon: fa-envelope fa-lg  
+      href: mailto:<fgollnow@outlook.com> 
+    - icon: fa-github fa-lg  
+      href: http://github.com/fg-code
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/flogollnow
+    - icon: fa-researchgate fa-lg
+      href: https://www.researchgate.net/profile/Florian_Gollnow
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
