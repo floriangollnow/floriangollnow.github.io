@@ -10,14 +10,21 @@ navbar:
 
   right:
     - icon: fa-envelope fa-lg  
-      href: mailto:<fgollnow@outlook.com> 
-    - icon: fa-github fa-lg  
-      href: http://github.com/fg-code
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/flogollnow
-    - icon: fa-researchgate fa-lg
+      href: mailto:<fgollnow@outlook.com>
+    - icon: fa-book fa-lg
+      href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de 
+    - icon: fab fa-researchgate fa-lg
       href: https://www.researchgate.net/profile/Florian_Gollnow
+    - icon: fab fa-twitter fa-lg
+      href: https://twitter.com/flogollnow
+    - icon: fab fa-github fa-lg  
+      href: http://github.com/fg-code
+
 output:
   html_document:
-    theme: paper
-    css: 'styles.css'
+     theme: paper
+
+#    theme: darkly
+#  html_document:
+#    theme: paper
+#    css: 'styles.css'

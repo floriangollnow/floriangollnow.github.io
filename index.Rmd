@@ -5,9 +5,9 @@
 
 <img src="images/gollnowf_pic1.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am interested in research question at the intersection of nature conservation, agricultural production and livelihoods. Currently, I investigate the role of zero-deforestation commitments in the Brazilain soybean sector, using econometric modeling and large spatial and temporal data.  
-More general, my work focuses on understanding causes and the spatio-temporal dynamics of land use changes, and most importantly, the loss of natural ecosystem as one of the major causes of global environmental change.   
+I am interested in research questions at the intersection of nature conservation, agricultural production, and livelihoods. Currently, I investigate the role of zero-deforestation commitments in the Brazilain soybean sector, using econometric modeling and large spatial and temporal data.  
+More general, my work focuses on understanding causes and the spatio-temporal dynamics of land-use changes, and most importantly, the loss of natural ecosystem as one of the major causes of global environmental change.   
   
-I received my PhD from [Humboldt-Universitaet zu Berlin](https://www.geographie.hu-berlin.de/de) where I investigated spatio-temporal interaction of land use change (i.e.,soybean and cattle raching), environmental policies and tropical deforestation in Brazil. Following I was awarded a 2-year Postdoctoral-Fellowship at the [Socio-Environmnetal Synthesis Center (SESYNC)](https://www.sesync.org/). Currently, I am Postdoctoral Reaseracher at the [Department of Earth & Environment at Boston University](http://www.bu.edu/earth/), working in collaboration with the [Environmental Policy Lab (EPL) at ETH Zurich](https://epl.ethz.ch/). 
+I received my Ph.D. from [Humboldt-Universitaet zu Berlin](https://www.geographie.hu-berlin.de/de) where I investigated spatio-temporal interaction of land-use change (i.e., soybean and cattle ranching), environmental policies, and tropical deforestation in Brazil. Following I was awarded a 2-year Postdoctoral-Fellowship at the [Socio-Environmnetal Synthesis Center (SESYNC)](https://www.sesync.org/). Currently, I am a Postdoctoral Researcher at the [Department of Earth & Environment at Boston University](http://www.bu.edu/earth/), working in collaboration with the [Environmental Policy Lab (EPL) at ETH Zurich](https://epl.ethz.ch/). 
   
 My full CV is available [here](files/GollnowF_CV_20210214.pdf).
