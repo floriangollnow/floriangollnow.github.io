@@ -4,21 +4,21 @@ navbar:
   title: "Florian Gollnow, Ph.D"
   left:
     - text: "Publications"
-      href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de {:target="_blank"}
+      href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de
     - text: "CV"
-      href: files/GollnowF_CV_20210214.pdf {:target="_blank"}
+      href: files/GollnowF_CV_20210214.pdf
 
   right:
     - icon: fa-envelope fa-lg  
       href: mailto:<fgollnow@outlook.com>
     - icon: fa-book fa-lg
-      href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de {:target="_blank"}
+      href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de
     - icon: fab fa-researchgate fa-lg
-      href: https://www.researchgate.net/profile/Florian_Gollnow {:target="_blank"}
+      href: https://www.researchgate.net/profile/Florian_Gollnow
     - icon: fab fa-twitter fa-lg
-      href: https://twitter.com/flogollnow {:target="_blank"}
+      href: https://twitter.com/flogollnow
     - icon: fab fa-github fa-lg  
-      href: http://github.com/fg-code {:target="_blank"}
+      href: http://github.com/fg-code
 
 output:
   html_document:
