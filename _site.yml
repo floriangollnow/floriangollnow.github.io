@@ -1,7 +1,7 @@
-name: "Florian Gollnow, Ph.D."
+name: "Florian Gollnow, Ph.D. "
 output_dir: "."
 navbar:
-  title: "Florian Gollnow, Ph.D."
+  title: "Florian Gollnow, Ph.D. "
   left:
     - text: "Publications"
       href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de
@@ -18,7 +18,7 @@ navbar:
     - icon: fab fa-twitter fa-lg
       href: https://twitter.com/flogollnow
     - icon: fab fa-github fa-lg  
-      href: http://github.com/fg-code
+      href: http://github.com/floriangollnow
 
 output:
   html_document:
