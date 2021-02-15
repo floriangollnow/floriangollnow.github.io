@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Florian Gollnow</title>
+
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Florian Gollnow, Ph.D.</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="Research.html">Research</a>
+</li>
+<li>
+  <a href="files/GollnowF_CV_20210214.pdf">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;fgollnow@outlook.com&gt;">
+    <span class="fas fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://scholar.google.de/citations?user=IeBq3kIAAAAJ&amp;hl=de">
+    <span class="ai ai-google-scholar ai-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://orcid.org/0000-0002-6314-1877">
+    <span class="ai ai-orcid ai-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Florian_Gollnow">
+    <span class="ai ai-researchgate ai-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/flogollnow">
+    <span class="fab fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/floriangollnow">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="academicicons/css/academicons.min.css"/></p>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>under Review</td>
+<td>Vijay V., Field, C.R, <strong>Gollnow, F.</strong>, Jones, K.K. New connections between health and conservation in the public mind during the COVID-19 pandemic</td>
+</tr>
+<tr class="even">
+<td>under Review</td>
+<td>Hissa, L.B.V., Garcia Marquez, J.R., <strong>Gollnow, F.</strong>, Lakes, T. Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon</td>
+</tr>
+<tr class="odd">
+<td>under Review</td>
+<td>Hissa, L.B.V., <strong>Gollnow, F.</strong>, Mueller, H., Lakes, T. Land tenure diversity and forest cover change in a deforestation frontier</td>
+</tr>
+<tr class="even">
+<td>2021</td>
+<td>Garrett, R., Levy, S., <strong>Gollnow, F.</strong>, Hodel, L., Rueda, X. Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review. Environmental Research Letters</td>
+</tr>
+<tr class="odd">
+<td>2020</td>
+<td>Enoguanbhor, E.C., <strong>Gollnow, F.</strong>, Walker, B.B. , Nielsen, J.O., Lakes, T. Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria. Geojournal</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td>Hissa, L.B.V., Aguiar, A., Camargo, R., Santos de Lima, L., <strong>Gollnow, F.</strong>, Lakes, T. Regrowing forests contribution to law compliance and carbon storage in private properties of the Brazilian Amazon. Land Use Policy (88), 104-163</td>
+</tr>
+<tr class="odd">
+<td>2019</td>
+<td>Enoguanbhor, E.C., <strong>Gollnow, F.</strong>, Nielsen, J.O., Lakes, T., Walker, B.B. Land Cover Change in the Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to Support Land Use Planning. Sustainability (11), 1313</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td>Rufin, P., <strong>Gollnow, F.</strong>, Müller, D., Hostert, P. Synthesizing dam-induced land system change. Ambio 48(10), 1183-1194</td>
+</tr>
+<tr class="odd">
+<td>2018</td>
+<td><strong>Gollnow, F.</strong>, Hissa, L.B.V., Rufin, P., Lakes, T. Property-level direct and indirect deforestation for soybean production in the Amazon region of Mato Grosso, Brazil. Land Use Policy (78), 377–385</td>
+</tr>
+<tr class="even">
+<td>2018</td>
+<td>Schägner, J.P., Brander, L., Paracchini, M.L., Maes, J., <strong>Gollnow, F.</strong>, Bertzky, B. Spatial dimensions of recreational ecosystem service values: A review of meta-analyses and a combination of meta-analytic value-transfer and GIS. Ecosystem Services (31), 395–409</td>
+</tr>
+<tr class="odd">
+<td>2017</td>
+<td><strong>Gollnow, F.</strong>, Göpel, J., Hissa, L.B.V., Schaldach, R., Lakes, T. Scenarios of land-use change in a deforestation corridor in the Brazilian Amazon: Combining two scales of analysis. Regional Environmental Change (18), 143–159</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>Schaldach, R., Meurer, K.H.E., Jungkunst, H.F., Nendel, C., Lakes, T., <strong>Gollnow, F.</strong>, Göpel, J., Boy, J., Guggenberger, G., Strey, R., Strey, S., Berger, T., Gerold, G., Schönenberg, R., Böhner, J., Schindewolf, M., Latynskiy, E., Hampf, A., Parker, P.S., Sentelhas, P.C. A model-based assessment of the environmental impact of land-use change across scales in Southern Amazonia. Regional Environmental Change (18), 161–173</td>
+</tr>
+<tr class="odd">
+<td>2017</td>
+<td>Schönenberg, R., Goepel, J., Schaldach, R., <strong>Gollnow, F.</strong>, Lakes, T. Inter- and transdisciplinary scenario construction to explore future land use options in Southern Amazonia. Ecology and Society 22 (3)</td>
+</tr>
+<tr class="even">
+<td>2016</td>
+<td>Pinheiro, T.F., Escada, M.I.S., Valeriano, D.M., Hostert, P., <strong>Gollnow, F.</strong>, Müller, H. Forest Degradation Associated with Logging Frontier Expansion in the Amazon: The BR-163 Region in Southwestern Pará, Brazil. Earth Interactions 20 (17), 1–26</td>
+</tr>
+<tr class="odd">
+<td>2014</td>
+<td><strong>Gollnow, F.</strong>, Lakes, T. Policy change, land use, and agriculture: The case of soy production and cattle ranching in Brazil, 2001 - 2012. Applied Geography (55), 203–211</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="invited-talks" class="section level2">
+<h2>Invited talks</h2>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2019</td>
+<td><strong>Gollnow, F</strong>. Europas Sojakonsum auf Kosten natürlicher Ökosysteme in Brasilien (The environmental impact of European soybean consumption). Dialogforum Nachhaltigere Eiweißfuttermittel, German Federal Ministry of Food and Agriculture, Berlin, Germany</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td><strong>Gollnow, F.</strong>, Carlson, K., Garrett, R. Companies commitments to zero-deforestation targets for forest-risk commodities, Global reach &amp; regional changes to deforestation footprints, at the Natural Resources &amp; Environmental Management Research Seminar Series, University of Hawaii. USA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="presentations" class="section level2">
+<h2>Presentations</h2>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2019</td>
+<td><strong>Gollnow</strong>, F., Hissa, L.B.V., Rufin, P. Analyzing deforestation leakage following the implementation of the Soy Moratorium in Mato Grosso, Brazil, American Association of Geographers annual Meeting (AAG), Washington D.C., USA</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td><strong>Gollnow</strong>, F., Garrett, R., Carlson, K. Potential conservation impact of Zero Deforestation Commitments (ZDCs) in the Brazilian Cerrado, 4th Open Science Meeting of the Global Land Program (GLP), Bern, Switzerland</td>
+</tr>
+<tr class="odd">
+<td>2019</td>
+<td>Levers, C., Piquer-Rodríguez, M., <strong>Gollnow, F.</strong>, Baumann, M., Gasparri, N.I., Gavier-Pizarro,G.I., le Polain de Waroux,Y., Müller, D., Müller, R., Volante, J., Kuemmerle T. Scenarios of commodity frontier expansion in the Gran Chaco and their environmental impacts. 4th Open Science Meeting of the Global Land Program (GLP), Bern, Switzerland</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td>Rivero Castro, R., Carlson, K., Garrett, R., Villoria, N., Levy, S., <strong>Gollnow, F.</strong>. Modeling the effects of soybean sector zero-deforestation commitment implementation on land cover change in South America. 4th Open Science Meeting of the Global Land Program (GLP), Bern, Switzerland</td>
+</tr>
+<tr class="odd">
+<td>2015</td>
+<td><strong>Gollnow, F.</strong>, Göpel, J., Lakes, T., Schaldach, R. A Multi-Scale Land Use Modeling approach for the Brazilian Amazon, International Association for Landscape Ecology World Congress (IALE), Portland, USA</td>
+</tr>
+<tr class="even">
+<td>2015</td>
+<td>Lakes, T., <strong>Gollnow, F.</strong>, Göpel, J., Schaldach, R. Future development paths of local land use changes within a globally changing world – a Multi-Scale Land Use Modeling approach for the Brazilian Amazon, Deutscher Kongress für Geographie (DKG), Berlin, Germany</td>
+</tr>
+<tr class="odd">
+<td>2015</td>
+<td>Oeser, J., Santibanez, S., <strong>Gollnow, F.</strong>, Lakes, T., Kloft, M. Maschinelles Lernen zur Modellierung raum-zeitlicher Prozesse, Deutscher Kongress für Geographie (DKG), Berlin, Germany</td>
+</tr>
+<tr class="even">
+<td>2014</td>
+<td><strong>Gollnow, F.</strong>, Lakes, T., 2014. De-spatialization of land use change? Soy expansion and cattle displacement in the Brazilian Amazon, 2nd Global Land Project Open Science Meeting (GLP), Berlin, Germany</td>
+</tr>
+<tr class="odd">
+<td>2009</td>
+<td>van der Linden, S., Waske, B., Rabe, A., <strong>Gollnow, F.</strong>, Griffiths, P., Kuemmerle, T., Hostert, P. On the use of support vector machines and decision trees in land cover mapping - a review from the user perspective, 3rd Workshop EARSeL SIG Land Use and Land Cover, Bonn, Germany</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
