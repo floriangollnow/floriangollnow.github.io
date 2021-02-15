@@ -11,7 +11,7 @@ navbar:
   right:
     - icon: fa-envelope fa-lg  
       href: mailto:<fgollnow@outlook.com>
-    - icon: fa-book fa-lg
+    - icon: ai-google-scholar ai-lg
       href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de
     - icon: fab fa-researchgate fa-lg
       href: https://www.researchgate.net/profile/Florian_Gollnow

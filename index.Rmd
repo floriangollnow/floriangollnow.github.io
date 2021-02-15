@@ -3,6 +3,7 @@ title: "Florian Gollnow"
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="academicicons/css/academicons.min.css"/>
 
 <img src="images/gollnowf_pic1.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
