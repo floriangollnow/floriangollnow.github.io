@@ -11,6 +11,8 @@ output:
 
 # Research  
 
+\
+
 ## Zero-deforestation commitments
 The project focuses on zero-deforestation commitments in the Brazilian  soy sector. Soybean productions is one of the major commodities responsible for massive deforestation and loss of natural ecosystems in South America. My main interest is to understand the effectiveness of these commitments on reducing deforestation rates. We evaluate spatial coverage, adoption biases and their combined effect on reducing commodity deforestation. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change
 
@@ -19,12 +21,18 @@ Year | Title
 2021 | Garrett, R., Levy, S., **Gollnow, F.**, Hodel, L., Rueda, X. Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review. Environmental Research Letters
 2018 | **Gollnow, F.**, Hissa, L.B.V., Rufin, P., Lakes, T. Property-level direct and indirect deforestation for soybean production in the Amazon region of Mato Grosso, Brazil. Land Use Policy (78), 377–385
   
-\newline 
+\
+\
+\
+\
   
 ## Socioecological transformations in the Republic of Georgia
 Georgia’s modern history has been characterized by multiple stark institutional changes. Containing large parts of the Caucasus biome, Georgia is heavily forested and contains high levels of biodiversity and endemism. This research aims to answer how institutional changes and globalization affect land use and land cover change and rural livelihoods. Scenario modeling will evaluate different conservation and development pathways to aid shape environmental policies. 
   
-
+\
+\
+\
+\
   
 ## Land-use change and land-use displacement dynamics in Brazil (Ph.D. Theses)
 Demands for agricultural commodities are a major threat for some of the most valuable ecosystems in the world. The expansion of the agricultural sector in Brazil, fueled by global demands for soybeans, contributed to the loss of tropical and savanna ecosystems. However, most deforestation was caused by pastures, raising concerns about land use displacement processes between soybean expansion and cattle ranching. Promising, reductions of deforestation were observed following the implementation of governmental strategies and zero-deforestation supply chain commitments. This thesis aims to contribute to the understanding of spatial and temporal dynamics of soybean expansion and cattle ranching, driving deforestation in one of the most dynamic agricultural expansion and deforestation frontier of Brazil, in Mato Grosso and Pará. In this region, land use displacement describes the conversion of pasture to soybean followed by deforestation for cattle ranching at another location. This process was assessed at regional and property-level. Moreover, scenario analysis was applied to identify regional and subregional dynamics of land use changes. The results indicated that environmental governance affected regional and local land use dynamics and displacement processes. Distal displacement processes between soybean expansion and deforestation were significant, contributing to deforestation, but declined subsequently to the implementation of environmental policies. Likewise, deforestation at property-level declined following the policy implementations. However, the effectiveness of the zero-deforestation supply chain commitment was found to be at risk due to property-level displacement deforestation. Additionally, the scenario analysis emphasized the importance of subregional dynamics and identified risks of future deforestation. Integrating efforts between supply chain (soy and cattle) and governmental actors may be crucial to reduce deforestation in the Amazon.
@@ -41,7 +49,11 @@ under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenur
 2017 | Schönenberg, R., Goepel, J., Schaldach, R., **Gollnow, F.**, Lakes, T. Inter- and transdisciplinary scenario construction to explore future land use options in Southern Amazonia. Ecology and Society 22 (3)
 2016 | Pinheiro, T.F., Escada, M.I.S., Valeriano, D.M., Hostert, P., **Gollnow, F.**, Müller, H. Forest Degradation Associated with Logging Frontier Expansion in the Amazon: The BR-163 Region in Southwestern Pará, Brazil. Earth Interactions 20 (17), 1–26
 2014 | **Gollnow, F.**, Lakes, T. Policy change, land use, and agriculture: The case of soy production and cattle ranching in Brazil, 2001 - 2012. Applied Geography (55), 203–211
-  
+
+\
+\
+\
+\
 
 ## Human-environmental interactions  
 Interested at the intersection of human-environmental interactions, ecosystem services and sustainable develop, I contributed to diverse projects.
