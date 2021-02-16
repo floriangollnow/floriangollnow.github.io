@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "Research"
       href: Research.html
+    - text: "Publications"
+      href: Publications.html
     - text: "CV"
       href: files/GollnowF_CV_20210214.pdf
 
