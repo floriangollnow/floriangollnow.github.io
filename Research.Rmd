@@ -14,7 +14,8 @@ output:
 \
 
 ## Zero-deforestation commitments
-The project focuses on zero-deforestation commitments in the Brazilian  soy sector. Soybean productions is one of the major commodities responsible for massive deforestation and loss of natural ecosystems in South America. My main interest is to understand the effectiveness of these commitments on reducing deforestation rates. We evaluate spatial coverage, adoption biases and their combined effect on reducing commodity deforestation. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change
+This research is embedded within the larger zero-deforestation research done in collaboration with ETH Zurich. Please visit [zerodeforestationimpacts.com](http://zerodeforestationimpacts.com/). 
+My research focuses on zero deforestation commitments in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments on reducing deforestation rates. We evaluate spatial coverage, adoption biases and their combined effect on reducing commodity deforestation. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change
 
 Year | Title
 -----|---------------------------------------------
