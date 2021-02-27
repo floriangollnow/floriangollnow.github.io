@@ -14,8 +14,9 @@ output:
 \
 
 ## Zero-deforestation commitments
-This research is embedded within the larger zero-deforestation research done in collaboration with ETH Zurich. Please visit [zerodeforestationimpacts.com](http://zerodeforestationimpacts.com/). 
-My research focuses on zero deforestation commitments in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments on reducing deforestation rates. We evaluate spatial coverage, adoption biases and their combined effect on reducing commodity deforestation. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change
+I am interested the potentials and impats of zero-deforestation (ZD) commitments for ecosystem conservation and rural livelihoods. This work is 
+embedded within the larger ZD research done in collaboration with ETH Zurich @  [zerodeforestationimpacts.com](http://zerodeforestationimpacts.com/). 
+I focus on zero deforestation commitments in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments on reducing deforestation for commodity expansion. We evaluate ZDs spatial coverage, adoption biases and their combined effect on reducing commodity driven deforestation. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change.
 
 Year | Title
 -----|---------------------------------------------
@@ -52,14 +53,8 @@ under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenur
 2014 | **Gollnow, F.**, Lakes, T. [Policy change, land use, and agriculture: The case of soy production and cattle ranching in Brazil, 2001 - 2012](https://doi.org/10.1016/j.apgeog.2014.09.003). Applied Geography (55), 203–211
 
 \
-\
 
-# Other projects
-
-\
-
-## Human-environmental interactions  
-Interested at the intersection of human-environmental interactions, ecosystem services and sustainable develop, I contributed to diverse projects.
+## Human-environmental interactions (other fun project contributions)
 
 Year | Title
 -----|---------------------------------------------
