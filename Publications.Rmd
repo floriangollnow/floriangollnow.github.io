@@ -13,9 +13,9 @@ output:
 
 Year | Title
 -----|---------------------------------------------
-under Review | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. New connections between health and conservation in the public mind during the COVID-19 pandemic
 under Review | Hissa, L.B.V., Garcia Marquez, J.R., **Gollnow, F.**, Lakes, T. Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon
 under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenure diversity and forest cover change in a deforestation frontier
+in press 2021 | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. Using internet search data to understand information seeking behavior for health and conservation topics during the COVID-19 pandemic, Biological Conservation 
 2021 | Garrett, R., Levy, S., **Gollnow, F.**, Hodel, L., Rueda, X. [Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review](https://doi.org/10.1088/1748-9326/abe0ed). Environmental Research Letters
 2020 | Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. [Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria](https://doi.org/10.1007/s10708-020-10317-x). Geojournal
 2019 | Hissa, L.B.V., Aguiar, A., Camargo, R., Santos de Lima, L., **Gollnow, F.**, Lakes, T. [Regrowing forests contribution to law compliance and carbon storage in private properties of the Brazilian Amazon](https://doi.org/10.1016/j.landusepol.2019.104163). Land Use Policy (88), 104-163
