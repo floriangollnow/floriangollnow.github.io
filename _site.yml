@@ -12,7 +12,7 @@ navbar:
 
   right:
     - icon: fa-envelope fa-lg  
-      href: mailto:<fgollnow@outlook.com>
+      href: mailto:<fgollnow[at]outlook.com>
     - icon: ai-google-scholar ai-lg
       href: https://scholar.google.de/citations?user=IeBq3kIAAAAJ&hl=de
     - icon: ai-orcid ai-lg
