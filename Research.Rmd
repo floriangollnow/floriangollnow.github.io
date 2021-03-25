@@ -11,36 +11,32 @@ output:
 
 # Current projects 
 
-\
 
-## Zero-deforestation commitments
+### Zero-deforestation commitments
 I am interested in the potentials and impacts of zero-deforestation (ZD) commitments for ecosystem conservation and rural livelihoods. This work is 
 embedded within the larger ZD research done in collaboration with ETH Zurich @  [zerodeforestationimpacts.com](http://zerodeforestationimpacts.com/). 
 I focus on zero deforestation commitments in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments on reducing deforestation for commodity expansion. We evaluate ZDs spatial coverage, adoption biases and their combined effect on reducing commodity driven deforestation. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change.
 
 Year | Title
------|---------------------------------------------
+:--- | :-------------------------------------------- | 
 2021 | Garrett, R., Levy, S., **Gollnow, F.**, Hodel, L., Rueda, X. [Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review](https://doi.org/10.1088/1748-9326/abe0ed). Environmental Research Letters
 2018 | **Gollnow, F.**, Hissa, L.B.V., Rufin, P., Lakes, T. [Property-level direct and indirect deforestation for soybean production in the Amazon region of Mato Grosso, Brazil](https://doi.org/10.1016/j.landusepol.2018.07.010). Land Use Policy (78), 377–385
   
 \
-\
   
-## Socioecological transformations in the Republic of Georgia
+### Socioecological transformations in the Republic of Georgia
 Georgia’s modern history has been characterized by multiple stark institutional changes. Containing large parts of the Caucasus biome, Georgia is heavily forested and contains high levels of biodiversity and endemism. This research aims to answer how institutional changes and globalization affect land use and land cover change and rural livelihoods. Scenario modeling will evaluate different conservation and development pathways to aid shape environmental policies. 
   
-\
 \
 
 # Past projects
 
-\
 
-## Land-use change and land-use displacement dynamics in Brazil (Ph.D. Theses)
+### Land-use change and land-use displacement dynamics in Brazil (Ph.D. Theses)
 Demands for agricultural commodities are a major threat for some of the most valuable ecosystems in the world. The expansion of the agricultural sector in Brazil, fueled by global demands for soybeans, contributed to the loss of tropical and savanna ecosystems. However, most deforestation was caused by pastures, raising concerns about land use displacement processes between soybean expansion and cattle ranching. Promising, reductions of deforestation were observed following the implementation of governmental strategies and zero-deforestation supply chain commitments. This thesis aims to contribute to the understanding of spatial and temporal dynamics of soybean expansion and cattle ranching, driving deforestation in one of the most dynamic agricultural expansion and deforestation frontier of Brazil, in Mato Grosso and Pará. In this region, land use displacement describes the conversion of pasture to soybean followed by deforestation for cattle ranching at another location. This process was assessed at regional and property-level. Moreover, scenario analysis was applied to identify regional and subregional dynamics of land use changes. The results indicated that environmental governance affected regional and local land use dynamics and displacement processes. Distal displacement processes between soybean expansion and deforestation were significant, contributing to deforestation, but declined subsequently to the implementation of environmental policies. Likewise, deforestation at property-level declined following the policy implementations. However, the effectiveness of the zero-deforestation supply chain commitment was found to be at risk due to property-level displacement deforestation. Additionally, the scenario analysis emphasized the importance of subregional dynamics and identified risks of future deforestation. Integrating efforts between supply chain (soy and cattle) and governmental actors may be crucial to reduce deforestation in the Amazon.
 
 Year | Title
------|---------------------------------------------
+:--- | :-------------------------------------------- | 
 under Review | Hissa, L.B.V., Garcia Marquez, J.R., **Gollnow, F.**, Lakes, T. Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon
 under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenure diversity and forest cover change in a deforestation frontier
 2019 | Hissa, L.B.V., Aguiar, A., Camargo, R., Santos de Lima, L., **Gollnow, F.**, Lakes, T. [Regrowing forests contribution to law compliance and carbon storage in private properties of the Brazilian Amazon](https://doi.org/10.1016/j.landusepol.2019.104163). Land Use Policy (88), 104-163
@@ -54,11 +50,11 @@ under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenur
 
 \
 
-## Human-environmental interactions (other fun project contributions)
+### Fun project contributions on human environmnetal interactions
 
 Year | Title
------|---------------------------------------------
-in press 2021 | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. Using internet search data to understand information seeking behavior for health and conservation topics during the COVID-19 pandemic, Biological Conservation 
+:--- | :-------------------------------------------- | 
+2021 | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. [Using internet search data to understand information seeking behavior for health and conservation topics during the COVID-19 pandemic](https://doi.org/10.1016/j.biocon.2021.109078), Biological Conservation 
 2020 | Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. [Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria](https://doi.org/10.1007/s10708-020-10317-x). Geojournal 
 2019 | Enoguanbhor, E.C., **Gollnow, F.**, Nielsen, J.O., Lakes, T., Walker, B.B. [Land Cover Change in the Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to Support Land Use Planning](https://dx.doi.org/10.3390/su11051313). Sustainability (11), 1313
 2019 | Rufin, P., **Gollnow, F.**, Müller, D., Hostert, P. [Synthesizing dam-induced land system change](https://doi.org/10.1007/s13280-018-01144-z). Ambio 48(10), 1183-1194

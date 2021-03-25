@@ -12,11 +12,11 @@ output:
 ## Publications 
 
 Year | Title
------|---------------------------------------------
+:--- | :-------------------------------------------- | 
 under Review | Hissa, L.B.V., Garcia Marquez, J.R., **Gollnow, F.**, Lakes, T. Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon
 under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenure diversity and forest cover change in a deforestation frontier
-in press 2021 | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. Using internet search data to understand information seeking behavior for health and conservation topics during the COVID-19 pandemic, Biological Conservation 
 2021 | Garrett, R., Levy, S., **Gollnow, F.**, Hodel, L., Rueda, X. [Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review](https://doi.org/10.1088/1748-9326/abe0ed). Environmental Research Letters
+2021 | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. [Using internet search data to understand information seeking behavior for health and conservation topics during the COVID-19 pandemic](https://doi.org/10.1016/j.biocon.2021.109078), Biological Conservation 
 2020 | Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. [Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria](https://doi.org/10.1007/s10708-020-10317-x). Geojournal
 2019 | Hissa, L.B.V., Aguiar, A., Camargo, R., Santos de Lima, L., **Gollnow, F.**, Lakes, T. [Regrowing forests contribution to law compliance and carbon storage in private properties of the Brazilian Amazon](https://doi.org/10.1016/j.landusepol.2019.104163). Land Use Policy (88), 104-163
 2019 | Enoguanbhor, E.C., **Gollnow, F.**, Nielsen, J.O., Lakes, T., Walker, B.B. [Land Cover Change in the Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to Support Land Use Planning](https://dx.doi.org/10.3390/su11051313). Sustainability (11), 1313
@@ -31,13 +31,13 @@ in press 2021 | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. Using interne
 
 ## Invited talks 
 Year | Title
------|---------------------------------------------
+:--- | :-------------------------------------------- | 
 2019 | **Gollnow, F**. Europas Sojakonsum auf Kosten natürlicher Ökosysteme in Brasilien (The environmental impact of European soybean consumption). Dialogforum Nachhaltigere Eiweißfuttermittel, German Federal Ministry of Food and Agriculture, Berlin, Germany
 2019 | **Gollnow, F.**, Carlson, K., Garrett, R. Companies commitments to zero-deforestation targets for forest-risk commodities, Global reach & regional changes to deforestation footprints, at the Natural Resources & Environmental Management Research Seminar Series, University of Hawaii. USA
 
 ## Presentations
 Year | Title
------|---------------------------------------------
+:--- | :-------------------------------------------- | 
 2019 | **Gollnow**, F., Hissa, L.B.V., Rufin, P. Analyzing deforestation leakage following the implementation of the Soy Moratorium in Mato Grosso, Brazil, American Association of Geographers annual Meeting (AAG), Washington D.C., USA
 2019 | **Gollnow**, F., Garrett, R., Carlson, K. Potential conservation impact of Zero Deforestation Commitments (ZDCs) in the Brazilian Cerrado, 4th Open Science Meeting of the Global Land Program (GLP), Bern, Switzerland
 2019 | Levers, C., Piquer-Rodríguez, M., **Gollnow, F.**, Baumann, M., Gasparri, N.I., Gavier-Pizarro,G.I., le Polain de Waroux,Y., Müller, D.,  Müller, R., Volante, J.,  Kuemmerle T. Scenarios of commodity frontier expansion in the Gran Chaco and their environmental impacts. 4th Open Science Meeting of the Global Land Program (GLP), Bern, Switzerland
