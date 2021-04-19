@@ -31,7 +31,6 @@ Georgia’s modern history has been characterized by multiple stark institutiona
 
 # Past projects
 
-
 ### Land-use change and land-use displacement dynamics in Brazil (Ph.D. Theses)
 Demands for agricultural commodities are a major threat for some of the most valuable ecosystems in the world. The expansion of the agricultural sector in Brazil, fueled by global demands for soybeans, contributed to the loss of tropical and savanna ecosystems. However, most deforestation was caused by pastures, raising concerns about land use displacement processes between soybean expansion and cattle ranching. Promising, reductions of deforestation were observed following the implementation of governmental strategies and zero-deforestation supply chain commitments. This thesis aims to contribute to the understanding of spatial and temporal dynamics of soybean expansion and cattle ranching, driving deforestation in one of the most dynamic agricultural expansion and deforestation frontier of Brazil, in Mato Grosso and Pará. In this region, land use displacement describes the conversion of pasture to soybean followed by deforestation for cattle ranching at another location. This process was assessed at regional and property-level. Moreover, scenario analysis was applied to identify regional and subregional dynamics of land use changes. The results indicated that environmental governance affected regional and local land use dynamics and displacement processes. Distal displacement processes between soybean expansion and deforestation were significant, contributing to deforestation, but declined subsequently to the implementation of environmental policies. Likewise, deforestation at property-level declined following the policy implementations. However, the effectiveness of the zero-deforestation supply chain commitment was found to be at risk due to property-level displacement deforestation. Additionally, the scenario analysis emphasized the importance of subregional dynamics and identified risks of future deforestation. Integrating efforts between supply chain (soy and cattle) and governmental actors may be crucial to reduce deforestation in the Amazon.
 
@@ -48,16 +47,22 @@ under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenur
 2016 | Pinheiro, T.F., Escada, M.I.S., Valeriano, D.M., Hostert, P., **Gollnow, F.**, Müller, H. [Forest Degradation Associated with Logging Frontier Expansion in the Amazon: The BR-163 Region in Southwestern Pará, Brazil](https://doi.org/10.1175/EI-D-15-0016.1). Earth Interactions 20 (17), 1–26
 2014 | **Gollnow, F.**, Lakes, T. [Policy change, land use, and agriculture: The case of soy production and cattle ranching in Brazil, 2001 - 2012](https://doi.org/10.1016/j.apgeog.2014.09.003). Applied Geography (55), 203–211
 
+### Environmental challenges of urban land use planing under rapid urban expansion in Abuja, Nigeria.
+Lead by Evidence Chinedu Enoguanbhor this project focused on environmental challenges of urban land use planing in Abuja, Nigeria. Rapid urban expansion, a lack of timely land use information and technical and financial resources, challenge land use planing in many Sub-Saharan African city-regions. Here we identify current trends, potential future developments and challenges of current land use planing practices, relevant for achieving a more sustainable urban development.
+
+Year | Title
+:--- | :-------------------------------------------- | 
+in print| Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. Key challenges for land use planning strategies and their environmental assessments in the Abuja city-region, Nigeria. Land  
+2020 | Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. [Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria](https://doi.org/10.1007/s10708-020-10317-x). Geojournal 
+2019 | Enoguanbhor, E.C., **Gollnow, F.**, Nielsen, J.O., Lakes, T., Walker, B.B. [Land Cover Change in the Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to Support Land Use Planning](https://dx.doi.org/10.3390/su11051313). Sustainability (11), 1313
+
 \
 
 # Additional colaborations and fun projects
 
 Year | Title
 :--- | :-------------------------------------------- | 
-in print| Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. Key challenges for land use planning strategies and their environmental assessments in the Abuja city-region, Nigeria. Land  
 2021 | Vijay V., Field, C.R, **Gollnow, F.**, Jones, K.K. [Using internet search data to understand information seeking behavior for health and conservation topics during the COVID-19 pandemic](https://doi.org/10.1016/j.biocon.2021.109078), Biological Conservation 
-2020 | Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. [Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria](https://doi.org/10.1007/s10708-020-10317-x). Geojournal 
-2019 | Enoguanbhor, E.C., **Gollnow, F.**, Nielsen, J.O., Lakes, T., Walker, B.B. [Land Cover Change in the Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to Support Land Use Planning](https://dx.doi.org/10.3390/su11051313). Sustainability (11), 1313
 2019 | Rufin, P., **Gollnow, F.**, Müller, D., Hostert, P. [Synthesizing dam-induced land system change](https://doi.org/10.1007/s13280-018-01144-z). Ambio 48(10), 1183-1194
 2018 | Schägner, J.P., Brander, L., Paracchini, M.L., Maes, J., **Gollnow, F.**, Bertzky, B. [Spatial dimensions of recreational ecosystem service values: A review of meta-analyses and a combination of meta-analytic value-transfer and GIS](https://doi.org/10.1016/j.ecoser.2018.03.003). Ecosystem Services (31), 395–409
 
