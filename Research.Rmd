@@ -52,7 +52,7 @@ Lead by Evidence Chinedu Enoguanbhor this project focused on environmental chall
 
 Year | Title
 :--- | :-------------------------------------------- | 
-in print| Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. Key challenges for land use planning strategies and their environmental assessments in the Abuja city-region, Nigeria. Land  
+2021| Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. [Key challenges for land use planning strategies and their environmental assessments in the Abuja city-region](https://doi.org/10.3390/land10050443). Land  
 2020 | Enoguanbhor, E.C., **Gollnow, F.**, Walker, B.B. , Nielsen, J.O., Lakes, T. [Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria](https://doi.org/10.1007/s10708-020-10317-x). Geojournal 
 2019 | Enoguanbhor, E.C., **Gollnow, F.**, Nielsen, J.O., Lakes, T., Walker, B.B. [Land Cover Change in the Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to Support Land Use Planning](https://dx.doi.org/10.3390/su11051313). Sustainability (11), 1313
 
