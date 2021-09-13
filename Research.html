@@ -13,7 +13,7 @@
 
 <title>Florian Gollnow</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -298,12 +298,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -333,7 +333,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:&lt;fgollnow[at]outlook.com&gt;">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
@@ -399,14 +399,18 @@ div.tocify {
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left">submitted</td>
+<td align="left">Villoria, N., Garrett, R., Carlson, K., <strong>Gollnow, F.</strong> Leakage is Unlikely to Offset the Benefits of Soybean Zero-Deforestation Commitments in Brazil</td>
+</tr>
+<tr class="even">
 <td align="left">under Review</td>
 <td align="left">Garrett, R., Grabs, J., Cammelli, F., <strong>Gollnow, F.</strong>, Levy, S. Should PES be used to implement zero-deforestation supply chain policies? The case of soy in the Brazilian Cerrado.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">2021</td>
 <td align="left">Garrett, R., Levy, S., <strong>Gollnow, F.</strong>, Hodel, L., Rueda, X. <a href="https://doi.org/10.1088/1748-9326/abe0ed">Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review</a>. Environmental Research Letters</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">2018</td>
 <td align="left"><strong>Gollnow, F.</strong>, Hissa, L.B.V., Rufin, P., Lakes, T. <a href="https://doi.org/10.1016/j.landusepol.2018.07.010">Property-level direct and indirect deforestation for soybean production in the Amazon region of Mato Grosso, Brazil</a>. Land Use Policy (78), 377–385</td>
 </tr>
@@ -583,6 +587,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

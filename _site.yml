@@ -29,7 +29,7 @@ output:
      theme: paper
      css: 'styles.css'
 
-#    theme: darkly
+#    theme: darkly paper
 #  html_document:
 #    theme: paper
 #    css: 'styles.css'
