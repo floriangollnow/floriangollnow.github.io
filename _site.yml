@@ -19,6 +19,8 @@ navbar:
       href: https://orcid.org/0000-0002-6314-1877 
     - icon: ai-researchgate ai-lg
       href: https://www.researchgate.net/profile/Florian_Gollnow
+    - icon: ai-publons ai-lg
+      href: https://publons.com/researcher/1211286/dr-florian-gollnow/
     - icon: fab fa-twitter fa-lg
       href: https://twitter.com/flogollnow
     - icon: fab fa-github fa-lg  
