@@ -13,6 +13,7 @@ output:
 
 Year | Title
 :--- | :-------------------------------------------- | 
+submitted | **Gollnow, F.**, Federico Cammelli, Carlson, K., Garrett, R., Adoption and market coverage influence the effectiveness of supply chain policies  
 submitted | Villoria, N., Garrett, R., Carlson, K., **Gollnow, F.** Leakage is Unlikely to Offset the Benefits of Soybean Zero-Deforestation Commitments in Brazil  
 under Review | Hissa, L.B.V., Garcia Marquez, J.R., **Gollnow, F.**, Lakes, T. Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon
 under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenure diversity and forest cover change in a deforestation frontier
