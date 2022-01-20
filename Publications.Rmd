@@ -13,6 +13,7 @@ output:
 
 Year | Title
 :--- | :-------------------------------------------- | 
+submitted | Cortner, O., Chen, S., Olofsson, P., **Gollnow, F.**, Torchinava, P., Garrett R. What drives forest degradation in post-Soviet landscapes?      
 under Review | Hissa, L.B.V., Garcia Marquez, J.R., **Gollnow, F.**, Lakes, T. Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon
 under Review | Hissa, L.B.V., **Gollnow, F.**, Mueller, H., Lakes, T. Land tenure diversity and forest cover change in a deforestation frontier
 preprint 2022 | **Gollnow, F.**, Federico Cammelli, Carlson, K., Garrett, R., [Gaps in adoption by smaller companies limit the current and potential effectiveness of zero-deforestation supply chain policies for soy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4006677)  
