@@ -13,9 +13,9 @@ output:
 
 
 ### Zero-deforestation commitments
-I am interested in the potentials and impacts of companies zero-deforestation (ZD) supply-chain commitments for ecosystem conservation and rural livelihoods. This work is 
-embedded within the larger ZD research done in collaboration with ETH Zurich @  [zerodeforestationimpacts.com](http://zerodeforestationimpacts.com/). 
-I focus on ZD commitments in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments on reducing deforestation for commodity expansion. We evaluate ZDs spatial coverage, adoption biases and their combined effect on reducing commodity driven deforestation. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change.
+I am interested in the impacts and potentials of companies zero-deforestation supply-chain commitments (ZDC) for ecosystem conservation and rural livelihoods. This work is 
+embedded within the larger ZDC research done in collaboration with ETH Zurich @  [zerodeforestationimpacts.com](http://zerodeforestationimpacts.com/). 
+I focus on ZDCs in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments for reducing deforestation for commodity expansion. We evaluate ZDCs spatial coverage, adoption patterns and their combined effect on reducing commodity driven deforestation In the Brazilian Amazon and Cerrado. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change.
 
 Year | Title
 :--- | :-------------------------------------------- | 
