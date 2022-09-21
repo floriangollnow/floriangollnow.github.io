@@ -13,7 +13,7 @@
 
 <title>Florian Gollnow</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -147,11 +147,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -390,12 +394,24 @@ div.tocify {
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="academicicons/css/academicons.min.css"/></p>
+<p><link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="academicicons/css/academicons.min.css"/></p>
 <div id="current-projects" class="section level1">
 <h1>Current projects</h1>
 <div id="zero-deforestation-commitments" class="section level3">
 <h3>Zero-deforestation commitments</h3>
-<p>I am interested in the impacts and potentials of companies zero-deforestation supply-chain commitments (ZDC) for ecosystem conservation and rural livelihoods. This work is embedded within the larger ZDC research done in collaboration with ETH Zurich @ <a href="http://zerodeforestationimpacts.com/">zerodeforestationimpacts.com</a>. I focus on ZDCs in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments for reducing deforestation for commodity expansion. We evaluate ZDCs spatial coverage, adoption patterns and their combined effect on reducing commodity driven deforestation In the Brazilian Amazon and Cerrado. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change.</p>
+<p>I am interested in the impacts and potentials of companies
+zero-deforestation supply-chain commitments (ZDC) for ecosystem
+conservation and rural livelihoods. This work is embedded within the
+larger ZDC research done in collaboration with ETH Zurich @ <a
+href="http://zerodeforestationimpacts.com/">zerodeforestationimpacts.com</a>.
+I focus on ZDCs in the Brazilian soybean sector. My main interest is to
+understand the effectiveness of these commitments for reducing
+deforestation for commodity expansion. We evaluate ZDCs spatial
+coverage, adoption patterns and their combined effect on reducing
+commodity driven deforestation In the Brazilian Amazon and Cerrado. To
+do so, we use spatial and econometric analysis and synthesizes data on
+commitments, production, trade, land use and land use change.</p>
 <table>
 <colgroup>
 <col width="8%" />
@@ -410,32 +426,60 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">preprint 2022</td>
-<td align="left"><strong>Gollnow, F.</strong>, Federico Cammelli, Carlson, K., Garrett, R., <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4006677">Gaps in adoption limit the current and potential effectiveness of zero-deforestation supply chain policies for soy</a></td>
+<td align="left"><strong>Gollnow, F.</strong>, Federico Cammelli,
+Carlson, K., Garrett, R., <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4006677">Gaps
+in adoption limit the current and potential effectiveness of
+zero-deforestation supply chain policies for soy</a></td>
 </tr>
 <tr class="even">
 <td align="left">preprint 2022</td>
-<td align="left">Villoria, N., Garrett, R., <strong>Gollnow, F.</strong>, Carlson, K. <a href="https://doi.org/10.21203/rs.3.rs-1131832/v1">Demand-Driven Efforts to Stop Deforestation in Brazil’s Soy Sector are Unlikely to be Offset by Cross-Border Leakage</a></td>
+<td align="left">Villoria, N., Garrett, R., <strong>Gollnow,
+F.</strong>, Carlson, K. <a
+href="https://doi.org/10.21203/rs.3.rs-1131832/v1">Demand-Driven Efforts
+to Stop Deforestation in Brazil’s Soy Sector are Unlikely to be Offset
+by Cross-Border Leakage</a></td>
 </tr>
 <tr class="odd">
 <td align="left">2022</td>
-<td align="left">Garrett, R., Grabs, J., Cammelli, F., <strong>Gollnow, F.</strong>, Levy, S. <a href="https://doi.org/10.1016/j.worlddev.2022.105814">Should payments for environmental services be used to implement zero-deforestation supply chain policies? The case of soy in the Brazilian Cerrado</a>.World Development</td>
+<td align="left">Garrett, R., Grabs, J., Cammelli, F., <strong>Gollnow,
+F.</strong>, Levy, S. <a
+href="https://doi.org/10.1016/j.worlddev.2022.105814">Should payments
+for environmental services be used to implement zero-deforestation
+supply chain policies? The case of soy in the Brazilian
+Cerrado</a>.World Development</td>
 </tr>
 <tr class="even">
 <td align="left">2021</td>
-<td align="left">Garrett, R., Levy, S., <strong>Gollnow, F.</strong>, Hodel, L., Rueda, X. <a href="https://doi.org/10.1088/1748-9326/abe0ed">Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review</a>. Environmental Research Letters</td>
+<td align="left">Garrett, R., Levy, S., <strong>Gollnow, F.</strong>,
+Hodel, L., Rueda, X. <a
+href="https://doi.org/10.1088/1748-9326/abe0ed">Have food supply chain
+policies improved forest conservation and rural livelihoods? A
+systematic review</a>. Environmental Research Letters</td>
 </tr>
 <tr class="odd">
 <td align="left">2018</td>
-<td align="left"><strong>Gollnow, F.</strong>, Hissa, L.B.V., Rufin, P., Lakes, T. <a href="https://doi.org/10.1016/j.landusepol.2018.07.010">Property-level direct and indirect deforestation for soybean production in the Amazon region of Mato Grosso, Brazil</a>. Land Use Policy (78), 377–385</td>
+<td align="left"><strong>Gollnow, F.</strong>, Hissa, L.B.V., Rufin, P.,
+Lakes, T. <a
+href="https://doi.org/10.1016/j.landusepol.2018.07.010">Property-level
+direct and indirect deforestation for soybean production in the Amazon
+region of Mato Grosso, Brazil</a>. Land Use Policy (78), 377–385</td>
 </tr>
 </tbody>
 </table>
 <p><br />
 </p>
 </div>
-<div id="socioecological-transformations-in-the-republic-of-georgia" class="section level3">
+<div id="socioecological-transformations-in-the-republic-of-georgia"
+class="section level3">
 <h3>Socioecological transformations in the Republic of Georgia</h3>
-<p>Georgia’s modern history has been characterized by multiple stark institutional changes. Containing large parts of the Caucasus biome, Georgia is heavily forested and contains high levels of biodiversity and endemism. This research aims to answer how institutional changes and globalization affect land use and land cover change and rural livelihoods. Scenario modeling will evaluate different conservation and development pathways to aid shape environmental policies.</p>
+<p>Georgia’s modern history has been characterized by multiple stark
+institutional changes. Containing large parts of the Caucasus biome,
+Georgia is heavily forested and contains high levels of biodiversity and
+endemism. This research aims to answer how institutional changes and
+globalization affect land use and land cover change and rural
+livelihoods. Scenario modeling will evaluate different conservation and
+development pathways to aid shape environmental policies.</p>
 <table>
 <colgroup>
 <col width="8%" />
@@ -450,7 +494,10 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">preprint 2022</td>
-<td align="left">Cortner, O., Chen, S., Olofsson, P., <strong>Gollnow, F.</strong>, Torchinava, P., Garrett R. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4045409">What drives forest degradation in post-Soviet landscapes?</a></td>
+<td align="left">Cortner, O., Chen, S., Olofsson, P., <strong>Gollnow,
+F.</strong>, Torchinava, P., Garrett R. <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4045409">What
+drives forest degradation in post-Soviet landscapes?</a></td>
 </tr>
 </tbody>
 </table>
@@ -460,9 +507,41 @@ div.tocify {
 </div>
 <div id="past-projects" class="section level1">
 <h1>Past projects</h1>
-<div id="land-use-change-and-land-use-displacement-dynamics-in-brazil-ph.d.-theses" class="section level3">
-<h3>Land-use change and land-use displacement dynamics in Brazil (Ph.D. Theses)</h3>
-<p>Demands for agricultural commodities are a major threat for some of the most valuable ecosystems in the world. The expansion of the agricultural sector in Brazil, fueled by global demands for soybeans, contributed to the loss of tropical and savanna ecosystems. However, most deforestation was caused by pastures, raising concerns about land use displacement processes between soybean expansion and cattle ranching. Promising, reductions of deforestation were observed following the implementation of governmental strategies and zero-deforestation supply chain commitments. This thesis aims to contribute to the understanding of spatial and temporal dynamics of soybean expansion and cattle ranching, driving deforestation in one of the most dynamic agricultural expansion and deforestation frontier of Brazil, in Mato Grosso and Pará. In this region, land use displacement describes the conversion of pasture to soybean followed by deforestation for cattle ranching at another location. This process was assessed at regional and property-level. Moreover, scenario analysis was applied to identify regional and subregional dynamics of land use changes. The results indicated that environmental governance affected regional and local land use dynamics and displacement processes. Distal displacement processes between soybean expansion and deforestation were significant, contributing to deforestation, but declined subsequently to the implementation of environmental policies. Likewise, deforestation at property-level declined following the policy implementations. However, the effectiveness of the zero-deforestation supply chain commitment was found to be at risk due to property-level displacement deforestation. Additionally, the scenario analysis emphasized the importance of subregional dynamics and identified risks of future deforestation. Integrating efforts between supply chain (soy and cattle) and governmental actors may be crucial to reduce deforestation in the Amazon.</p>
+<div
+id="land-use-change-and-land-use-displacement-dynamics-in-brazil-ph.d.-theses"
+class="section level3">
+<h3>Land-use change and land-use displacement dynamics in Brazil
+(Ph.D. Theses)</h3>
+<p>Demands for agricultural commodities are a major threat for some of
+the most valuable ecosystems in the world. The expansion of the
+agricultural sector in Brazil, fueled by global demands for soybeans,
+contributed to the loss of tropical and savanna ecosystems. However,
+most deforestation was caused by pastures, raising concerns about land
+use displacement processes between soybean expansion and cattle
+ranching. Promising, reductions of deforestation were observed following
+the implementation of governmental strategies and zero-deforestation
+supply chain commitments. This thesis aims to contribute to the
+understanding of spatial and temporal dynamics of soybean expansion and
+cattle ranching, driving deforestation in one of the most dynamic
+agricultural expansion and deforestation frontier of Brazil, in Mato
+Grosso and Pará. In this region, land use displacement describes the
+conversion of pasture to soybean followed by deforestation for cattle
+ranching at another location. This process was assessed at regional and
+property-level. Moreover, scenario analysis was applied to identify
+regional and subregional dynamics of land use changes. The results
+indicated that environmental governance affected regional and local land
+use dynamics and displacement processes. Distal displacement processes
+between soybean expansion and deforestation were significant,
+contributing to deforestation, but declined subsequently to the
+implementation of environmental policies. Likewise, deforestation at
+property-level declined following the policy implementations. However,
+the effectiveness of the zero-deforestation supply chain commitment was
+found to be at risk due to property-level displacement deforestation.
+Additionally, the scenario analysis emphasized the importance of
+subregional dynamics and identified risks of future deforestation.
+Integrating efforts between supply chain (soy and cattle) and
+governmental actors may be crucial to reduce deforestation in the
+Amazon.</p>
 <table>
 <colgroup>
 <col width="8%" />
@@ -477,46 +556,97 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">2021</td>
-<td align="left">Hissa, L.B.V., Garcia Marquez, J.R., <strong>Gollnow, F.</strong>, Lakes, T. <a href="https://doi.org/10.18452/22843">Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon</a>. In: Hissa, L.B.V. From deforestation to forest recovery: perspectives for the Amazon under the rule of the Brazilian Forest Code</td>
+<td align="left">Hissa, L.B.V., Garcia Marquez, J.R., <strong>Gollnow,
+F.</strong>, Lakes, T. <a
+href="https://doi.org/10.18452/22843">Enhancing synergies for effective
+large-scale forest restoration in Mato Grosso, Brazilian Amazon</a>. In:
+Hissa, L.B.V. From deforestation to forest recovery: perspectives for
+the Amazon under the rule of the Brazilian Forest Code</td>
 </tr>
 <tr class="even">
 <td align="left">2021</td>
-<td align="left">Hissa, L.B.V., <strong>Gollnow, F.</strong>, Mueller, H., Lakes, T. <a href="https://doi.org/10.18452/22843">Land tenure diversity and forest cover change in a deforestation frontier</a>. In: Hissa, L.B.V. From deforestation to forest recovery: perspectives for the Amazon under the rule of the Brazilian Forest Code 2019</td>
+<td align="left">Hissa, L.B.V., <strong>Gollnow, F.</strong>, Mueller,
+H., Lakes, T. <a href="https://doi.org/10.18452/22843">Land tenure
+diversity and forest cover change in a deforestation frontier</a>. In:
+Hissa, L.B.V. From deforestation to forest recovery: perspectives for
+the Amazon under the rule of the Brazilian Forest Code 2019</td>
 </tr>
 <tr class="odd">
 <td align="left">2018</td>
-<td align="left"><strong>Gollnow, F.</strong>, Hissa, L.B.V., Rufin, P., Lakes, T. <a href="https://doi.org/10.1016/j.landusepol.2018.07.010">Property-level direct and indirect deforestation for soybean production in the Amazon region of Mato Grosso, Brazil</a>. Land Use Policy (78), 377–385</td>
+<td align="left"><strong>Gollnow, F.</strong>, Hissa, L.B.V., Rufin, P.,
+Lakes, T. <a
+href="https://doi.org/10.1016/j.landusepol.2018.07.010">Property-level
+direct and indirect deforestation for soybean production in the Amazon
+region of Mato Grosso, Brazil</a>. Land Use Policy (78), 377–385</td>
 </tr>
 <tr class="even">
 <td align="left">2018</td>
-<td align="left"><strong>Gollnow, F.</strong>, <a href="https://doi.org/10.18452/18732">Land use change and land use displacement dynamics in Mato Grosso and Pará, Brazilian Amazon</a>, Ph.D. theses, Supervised by Prof. Tobia Lakes</td>
+<td align="left"><strong>Gollnow, F.</strong>, <a
+href="https://doi.org/10.18452/18732">Land use change and land use
+displacement dynamics in Mato Grosso and Pará, Brazilian Amazon</a>,
+Ph.D. theses, Supervised by Prof. Tobia Lakes</td>
 </tr>
 <tr class="odd">
 <td align="left">2017</td>
-<td align="left"><strong>Gollnow, F.</strong>, Göpel, J., Hissa, L.B.V., Schaldach, R., Lakes, T. <a href="https://doi.org/10.1007/s10113-017-1129-1">Scenarios of land-use change in a deforestation corridor in the Brazilian Amazon: Combining two scales of analysis</a>. Regional Environmental Change (18), 143–159</td>
+<td align="left"><strong>Gollnow, F.</strong>, Göpel, J., Hissa, L.B.V.,
+Schaldach, R., Lakes, T. <a
+href="https://doi.org/10.1007/s10113-017-1129-1">Scenarios of land-use
+change in a deforestation corridor in the Brazilian Amazon: Combining
+two scales of analysis</a>. Regional Environmental Change (18),
+143–159</td>
 </tr>
 <tr class="even">
 <td align="left">2017</td>
-<td align="left">Schaldach, R., Meurer, K.H.E., Jungkunst, H.F., Nendel, C., Lakes, T., <strong>Gollnow, F.</strong>, Göpel, J., Boy, J., Guggenberger, G., Strey, R., Strey, S., Berger, T., Gerold, G., Schönenberg, R., Böhner, J., Schindewolf, M., Latynskiy, E., Hampf, A., Parker, P.S., Sentelhas, P.C. <a href="https://doi.org/10.1007/s10113-017-1244-z">A model-based assessment of the environmental impact of land-use change across scales in Southern Amazonia</a>. Regional Environmental Change (18), 161–173</td>
+<td align="left">Schaldach, R., Meurer, K.H.E., Jungkunst, H.F., Nendel,
+C., Lakes, T., <strong>Gollnow, F.</strong>, Göpel, J., Boy, J.,
+Guggenberger, G., Strey, R., Strey, S., Berger, T., Gerold, G.,
+Schönenberg, R., Böhner, J., Schindewolf, M., Latynskiy, E., Hampf, A.,
+Parker, P.S., Sentelhas, P.C. <a
+href="https://doi.org/10.1007/s10113-017-1244-z">A model-based
+assessment of the environmental impact of land-use change across scales
+in Southern Amazonia</a>. Regional Environmental Change (18),
+161–173</td>
 </tr>
 <tr class="odd">
 <td align="left">2017</td>
-<td align="left">Schönenberg, R., Goepel, J., Schaldach, R., <strong>Gollnow, F.</strong>, Lakes, T. <a href="http://www.jstor.org/stable/26270154">Inter- and transdisciplinary scenario construction to explore future land use options in Southern Amazonia</a>. Ecology and Society 22 (3)</td>
+<td align="left">Schönenberg, R., Goepel, J., Schaldach, R.,
+<strong>Gollnow, F.</strong>, Lakes, T. <a
+href="http://www.jstor.org/stable/26270154">Inter- and transdisciplinary
+scenario construction to explore future land use options in Southern
+Amazonia</a>. Ecology and Society 22 (3)</td>
 </tr>
 <tr class="even">
 <td align="left">2016</td>
-<td align="left">Pinheiro, T.F., Escada, M.I.S., Valeriano, D.M., Hostert, P., <strong>Gollnow, F.</strong>, Müller, H. <a href="https://doi.org/10.1175/EI-D-15-0016.1">Forest Degradation Associated with Logging Frontier Expansion in the Amazon: The BR-163 Region in Southwestern Pará, Brazil</a>. Earth Interactions 20 (17), 1–26</td>
+<td align="left">Pinheiro, T.F., Escada, M.I.S., Valeriano, D.M.,
+Hostert, P., <strong>Gollnow, F.</strong>, Müller, H. <a
+href="https://doi.org/10.1175/EI-D-15-0016.1">Forest Degradation
+Associated with Logging Frontier Expansion in the Amazon: The BR-163
+Region in Southwestern Pará, Brazil</a>. Earth Interactions 20 (17),
+1–26</td>
 </tr>
 <tr class="odd">
 <td align="left">2014</td>
-<td align="left"><strong>Gollnow, F.</strong>, Lakes, T. <a href="https://doi.org/10.1016/j.apgeog.2014.09.003">Policy change, land use, and agriculture: The case of soy production and cattle ranching in Brazil, 2001 - 2012</a>. Applied Geography (55), 203–211</td>
+<td align="left"><strong>Gollnow, F.</strong>, Lakes, T. <a
+href="https://doi.org/10.1016/j.apgeog.2014.09.003">Policy change, land
+use, and agriculture: The case of soy production and cattle ranching in
+Brazil, 2001 - 2012</a>. Applied Geography (55), 203–211</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="environmental-challenges-of-urban-land-use-planing-under-rapid-urban-expansion-in-abuja-nigeria." class="section level3">
-<h3>Environmental challenges of urban land use planing under rapid urban expansion in Abuja, Nigeria.</h3>
-<p>Lead by Evidence Chinedu Enoguanbhor this project focused on environmental challenges of urban land use planing in Abuja, Nigeria. Rapid urban expansion, a lack of timely land use information and technical and financial resources, challenge land use planing in many Sub-Saharan African city-regions. Here we identify current trends, potential future developments and challenges of current land use planing practices, relevant for achieving a more sustainable urban development.</p>
+<div
+id="environmental-challenges-of-urban-land-use-planing-under-rapid-urban-expansion-in-abuja-nigeria."
+class="section level3">
+<h3>Environmental challenges of urban land use planing under rapid urban
+expansion in Abuja, Nigeria.</h3>
+<p>Lead by Evidence Chinedu Enoguanbhor this project focused on
+environmental challenges of urban land use planing in Abuja, Nigeria.
+Rapid urban expansion, a lack of timely land use information and
+technical and financial resources, challenge land use planing in many
+Sub-Saharan African city-regions. Here we identify current trends,
+potential future developments and challenges of current land use planing
+practices, relevant for achieving a more sustainable urban
+development.</p>
 <table>
 <colgroup>
 <col width="8%" />
@@ -531,15 +661,27 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">2021</td>
-<td align="left">Enoguanbhor, E.C., <strong>Gollnow, F.</strong>, Walker, B.B. , Nielsen, J.O., Lakes, T. <a href="https://doi.org/10.3390/land10050443">Key challenges for land use planning strategies and their environmental assessments in the Abuja city-region</a>. Land</td>
+<td align="left">Enoguanbhor, E.C., <strong>Gollnow, F.</strong>,
+Walker, B.B. , Nielsen, J.O., Lakes, T. <a
+href="https://doi.org/10.3390/land10050443">Key challenges for land use
+planning strategies and their environmental assessments in the Abuja
+city-region</a>. Land</td>
 </tr>
 <tr class="even">
 <td align="left">2020</td>
-<td align="left">Enoguanbhor, E.C., <strong>Gollnow, F.</strong>, Walker, B.B. , Nielsen, J.O., Lakes, T. <a href="https://doi.org/10.1007/s10708-020-10317-x">Simulating urban land expansion in the context of land use planning in the Abuja city-region, Nigeria</a>. Geojournal</td>
+<td align="left">Enoguanbhor, E.C., <strong>Gollnow, F.</strong>,
+Walker, B.B. , Nielsen, J.O., Lakes, T. <a
+href="https://doi.org/10.1007/s10708-020-10317-x">Simulating urban land
+expansion in the context of land use planning in the Abuja city-region,
+Nigeria</a>. Geojournal</td>
 </tr>
 <tr class="odd">
 <td align="left">2019</td>
-<td align="left">Enoguanbhor, E.C., <strong>Gollnow, F.</strong>, Nielsen, J.O., Lakes, T., Walker, B.B. <a href="https://dx.doi.org/10.3390/su11051313">Land Cover Change in the Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to Support Land Use Planning</a>. Sustainability (11), 1313</td>
+<td align="left">Enoguanbhor, E.C., <strong>Gollnow, F.</strong>,
+Nielsen, J.O., Lakes, T., Walker, B.B. <a
+href="https://dx.doi.org/10.3390/su11051313">Land Cover Change in the
+Abuja City-Region, Nigeria: Integrating GIS and Remotely Sensed Data to
+Support Land Use Planning</a>. Sustainability (11), 1313</td>
 </tr>
 </tbody>
 </table>
@@ -563,15 +705,27 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">2021</td>
-<td align="left">Vijay V., Field, C.R, <strong>Gollnow, F.</strong>, Jones, K.K. <a href="https://doi.org/10.1016/j.biocon.2021.109078">Using internet search data to understand information seeking behavior for health and conservation topics during the COVID-19 pandemic</a>, Biological Conservation</td>
+<td align="left">Vijay V., Field, C.R, <strong>Gollnow, F.</strong>,
+Jones, K.K. <a href="https://doi.org/10.1016/j.biocon.2021.109078">Using
+internet search data to understand information seeking behavior for
+health and conservation topics during the COVID-19 pandemic</a>,
+Biological Conservation</td>
 </tr>
 <tr class="even">
 <td align="left">2019</td>
-<td align="left">Rufin, P., <strong>Gollnow, F.</strong>, Müller, D., Hostert, P. <a href="https://doi.org/10.1007/s13280-018-01144-z">Synthesizing dam-induced land system change</a>. Ambio 48(10), 1183-1194</td>
+<td align="left">Rufin, P., <strong>Gollnow, F.</strong>, Müller, D.,
+Hostert, P. <a
+href="https://doi.org/10.1007/s13280-018-01144-z">Synthesizing
+dam-induced land system change</a>. Ambio 48(10), 1183-1194</td>
 </tr>
 <tr class="odd">
 <td align="left">2018</td>
-<td align="left">Schägner, J.P., Brander, L., Paracchini, M.L., Maes, J., <strong>Gollnow, F.</strong>, Bertzky, B. <a href="https://doi.org/10.1016/j.ecoser.2018.03.003">Spatial dimensions of recreational ecosystem service values: A review of meta-analyses and a combination of meta-analytic value-transfer and GIS</a>. Ecosystem Services (31), 395–409</td>
+<td align="left">Schägner, J.P., Brander, L., Paracchini, M.L., Maes,
+J., <strong>Gollnow, F.</strong>, Bertzky, B. <a
+href="https://doi.org/10.1016/j.ecoser.2018.03.003">Spatial dimensions
+of recreational ecosystem service values: A review of meta-analyses and
+a combination of meta-analytic value-transfer and GIS</a>. Ecosystem
+Services (31), 395–409</td>
 </tr>
 </tbody>
 </table>
