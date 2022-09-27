@@ -8,7 +8,7 @@ navbar:
     - text: "Publications"
       href: Publications.html
     - text: "CV"
-      href: files/GollnowF_CV_02072022.pdf
+      href: files/GollnowF_CV_09272022.pdf
 
   right:
     - icon: fa-envelope fa-lg  
