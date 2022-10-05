@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Urban | Florian Gollnow</title>
-    <link>https://example.com/tag/urban/</link>
-      <atom:link href="https://example.com/tag/urban/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://floriangollnow.guthub.io/tag/urban/</link>
+      <atom:link href="https://floriangollnow.guthub.io/tag/urban/index.xml" rel="self" type="application/rss+xml" />
     <description>Urban</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://floriangollnow.guthub.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Urban</title>
-      <link>https://example.com/tag/urban/</link>
+      <link>https://floriangollnow.guthub.io/tag/urban/</link>
     </image>
     
     <item>
       <title>Key challenges for land use planning strategies and their environmental assessments in the Abuja city-region, Nigeria</title>
-      <link>https://example.com/publication/evidence_et_al_2021/</link>
+      <link>https://floriangollnow.guthub.io/publication/evidence_et_al_2021/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/evidence_et_al_2021/</guid>
+      <guid>https://floriangollnow.guthub.io/publication/evidence_et_al_2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulating Urban Land Expansion in the Context of Land Use Planning in the Abuja City-Region, Nigeria</title>
-      <link>https://example.com/publication/evidence_et_al_2020/</link>
+      <link>https://floriangollnow.guthub.io/publication/evidence_et_al_2020/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/evidence_et_al_2020/</guid>
+      <guid>https://floriangollnow.guthub.io/publication/evidence_et_al_2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Land Cover Change in the Abuja City-Region, Nigeria - Integrating GIS and Remotely Sensed Data to Support Land Use Planning</title>
-      <link>https://example.com/publication/evidence_et_al_2019/</link>
+      <link>https://floriangollnow.guthub.io/publication/evidence_et_al_2019/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/evidence_et_al_2019/</guid>
+      <guid>https://floriangollnow.guthub.io/publication/evidence_et_al_2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Environmental challenges of land use planing under rapid urban expansion in Abuja, Nigeria.</title>
-      <link>https://example.com/project/urban/</link>
+      <link>https://floriangollnow.guthub.io/project/urban/</link>
       <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/urban/</guid>
+      <guid>https://floriangollnow.guthub.io/project/urban/</guid>
       <description>&lt;p&gt;Lead by Evidence Chinedu Enoguanbhor this project focused on environmental challenges of urban land use planing in Abuja, Nigeria. Rapid urban expansion, a lack of timely land use information and technical and financial resources, challenge land use planing in many Sub-Saharan African city-regions. Here we identify current trends, potential future developments and challenges of current land use planing practices, relevant for achieving a more sustainable urban development.&lt;/p&gt;
 </description>
     </item>
