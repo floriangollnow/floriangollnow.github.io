@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZDC | Florian Gollnow</title>
+    <link>https://example.com/tag/zdc/</link>
+      <atom:link href="https://example.com/tag/zdc/index.xml" rel="self" type="application/rss+xml" />
+    <description>ZDC</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>ZDC</title>
+      <link>https://example.com/tag/zdc/</link>
+    </image>
+    
+    <item>
+      <title>Gaps in adoption and implementation limit the current and potential effectiveness of zero-deforestation supply chain policies for soy (accepted)</title>
+      <link>https://example.com/publication/gollnow_et_al_2022/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/gollnow_et_al_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leakage does not fully offset soy supply chain efforts to reduce deforestation in Brazil</title>
+      <link>https://example.com/publication/nelson_et_al_2022/</link>
+      <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/nelson_et_al_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Should payments for environmental services be used to implement zero deforestation supply chain policies? The case of soy in the Brazilian Cerrado</title>
+      <link>https://example.com/publication/garrett_et_al_2022/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/garrett_et_al_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Have food supply chain policies improved forest conservation and rural livelihoods? A systematic review</title>
+      <link>https://example.com/publication/garrett_et_al_2021/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/garrett_et_al_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero-deforestation supply-chain commitments (ZDC)</title>
+      <link>https://example.com/project/zdc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/zdc/</guid>
+      <description>&lt;p&gt;I am interested in the impacts and potentials of companies zero-deforestation supply-chain commitments (ZDC) for ecosystem conservation and rural livelihoods. This work is embedded within the larger ZDC research done in collaboration with ETH Zurich @ &lt;a href=&#34;https://zerodeforestationimpacts.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zerodeforestationimpacts&lt;/a&gt;. I focus on ZDCs in the Brazilian soybean sector. My main interest is to understand the effectiveness of these commitments for reducing deforestation for commodity expansion. We evaluate ZDCs spatial coverage, adoption patterns and their combined effect on reducing commodity driven deforestation In the Brazilian Amazon and Cerrado. To do so, we use spatial and econometric analysis and synthesizes data on commitments, production, trade, land use and land use change.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
