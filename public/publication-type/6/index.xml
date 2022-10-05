@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6 | Florian Gollnow</title>
-    <link>https://floriangollnow.github.io/publication-type/6/</link>
-      <atom:link href="https://floriangollnow.github.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://floriangollnow.github.io/public/publication-type/6/</link>
+      <atom:link href="https://floriangollnow.github.io/public/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://floriangollnow.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://floriangollnow.github.io/public/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>6</title>
-      <link>https://floriangollnow.github.io/publication-type/6/</link>
+      <link>https://floriangollnow.github.io/public/publication-type/6/</link>
     </image>
     
     <item>
       <title>Enhancing synergies for effective large-scale forest restoration in Mato Grosso, Brazilian Amazon</title>
-      <link>https://floriangollnow.github.io/publication/hissa_et_al_2021a/</link>
+      <link>https://floriangollnow.github.io/public/publication/hissa_et_al_2021a/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://floriangollnow.github.io/publication/hissa_et_al_2021a/</guid>
+      <guid>https://floriangollnow.github.io/public/publication/hissa_et_al_2021a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Land tenure diversity and forest cover change in a deforestation frontier.</title>
-      <link>https://floriangollnow.github.io/publication/hissa_et_al_2021b/</link>
+      <link>https://floriangollnow.github.io/public/publication/hissa_et_al_2021b/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://floriangollnow.github.io/publication/hissa_et_al_2021b/</guid>
+      <guid>https://floriangollnow.github.io/public/publication/hissa_et_al_2021b/</guid>
       <description></description>
     </item>
     
