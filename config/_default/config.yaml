@@ -5,8 +5,8 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Florian Gollnow # Website name
-baseURL: 'https://floriangollnow.github.io/public' # Website URL
-
+baseURL: 'https://floriangollnow.github.io/' # Website URL
+publishDir: 'public'
 ############################
 ## LANGUAGE
 ############################
