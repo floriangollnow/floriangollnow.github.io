@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LULCC | Florian Gollnow</title>
-    <link>https://floriangollnow.guthub.io/tag/lulcc/</link>
-      <atom:link href="https://floriangollnow.guthub.io/tag/lulcc/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://floriangollnow.github.io/tag/lulcc/</link>
+      <atom:link href="https://floriangollnow.github.io/tag/lulcc/index.xml" rel="self" type="application/rss+xml" />
     <description>LULCC</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://floriangollnow.guthub.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://floriangollnow.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>LULCC</title>
-      <link>https://floriangollnow.guthub.io/tag/lulcc/</link>
+      <link>https://floriangollnow.github.io/tag/lulcc/</link>
     </image>
     
     <item>
       <title>What Drives Forest Degradation in Post-Soviet Landscapes?</title>
-      <link>https://floriangollnow.guthub.io/publication/cortner_et_al_2022-/</link>
+      <link>https://floriangollnow.github.io/publication/cortner_et_al_2022-/</link>
       <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://floriangollnow.guthub.io/publication/cortner_et_al_2022-/</guid>
+      <guid>https://floriangollnow.github.io/publication/cortner_et_al_2022-/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Socioecological transformations in the Republic of Georgia</title>
-      <link>https://floriangollnow.guthub.io/project/lulcc/</link>
+      <link>https://floriangollnow.github.io/project/lulcc/</link>
       <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://floriangollnow.guthub.io/project/lulcc/</guid>
+      <guid>https://floriangollnow.github.io/project/lulcc/</guid>
       <description>&lt;p&gt;Georgia’s modern history has been characterized by multiple stark institutional changes. Containing large parts of the Caucasus biome, Georgia is heavily forested and contains high levels of biodiversity and endemism. This research aims to answer how institutional changes and globalization affect land use and land cover change and rural livelihoods. Scenario modeling will evaluate different conservation and development pathways to aid shape environmental policies.&lt;/p&gt;
 </description>
     </item>
